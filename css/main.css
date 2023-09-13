@@ -1,0 +1,729 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    height: 15vh;
+
+
+}
+
+.nav2 a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#nav1 {
+    width: 70vh;
+    margin-left: 2vh;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.nav2 {
+    text-transform: uppercase;
+    gap: 1vh;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+
+
+}
+
+
+.btn {
+    background-color: gray;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-top: 5vh;
+    width: 17vh;
+    font-size: 20px;
+    background: transparent (0, -50%);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+
+}
+
+header {
+    background-image: url(/photo/PNC_students_outside_classroom_2015-99-1080x450.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.main {
+
+    width: 200vh;
+    height: 40%;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    background-image: url(/photo/Capture.PNG);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.We {
+    margin-top: 4vh;
+    margin-left: 30%;
+}
+
+#h4 {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-size: 25px;
+
+
+}
+
+h1 {
+    margin-left: 20vh;
+    margin-bottom: 10px;
+
+}
+
+section {
+    height: 600vh;
+    font-size: 3vh;
+}
+
+#value-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 30vh;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text-value {
+    margin-top: 5vh;
+}
+
+.card {
+    background-color: white;
+    width: 85%;
+    height: 45vh;
+    margin-top: 25px;
+    border-radius: 10px;
+    border-bottom: 3px solid;
+}
+
+#home {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+h2 {
+    color: blue;
+
+}
+
+.conteen1 {
+    width: 100%;
+    height: 40vh;
+    margin-top: 4vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.img-conteen {
+    width: 94%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 4vh;
+}
+
+.card-food {
+    background: chocolate;
+    height: 20vh;
+}
+
+.text-food {
+    margin-top: 25vh;
+}
+
+tr th {
+    background-color: aqua;
+}
+
+tr :nth-child(1) {
+    background-color: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    height: 10vh;
+    margin-left: 3vh;
+}
+
+.sports {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.imgsports {
+    height: 40vh;
+    margin-right: 2vh;
+    margin-top: 8vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.text-sport {
+    margin-top: 10vh;
+}
+
+.menu-sport h5 {
+    font-size: 20px;
+    width: 80vh;
+    margin-top: 4vh;
+
+}
+
+#text-sport {
+    margin-top: 2vh;
+    margin-right: 20vh;
+    margin-left: 5vh;
+    text-align: start;
+    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+h5 {
+    font-size: 4vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-left: 5vh;
+}
+
+#Aerobic-section {
+    height: 50vh;
+
+}
+
+.img-Aerobic {
+    height: 10vh;
+    margin-top: 5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.card2 {
+    background-color: burlywood;
+    ;
+}
+
+.text-Aerobic {
+    margin-top: 10vh;
+}
+
+.title-Contact {
+    margin-top: 15vh;
+}
+
+.title-Aerobic {
+    margin-top: 5vh;
+}
+
+.Contact-us-section {
+    height: 500px;
+    width: 100%;
+    margin-top: 5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    border-radius: 1vh;
+    background-image: url(/photo/PNP-staff-2018.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.h2 {
+    color: white;
+    padding-top: 10vh;
+    margin-left: 10vh;
+
+}
+
+form div {
+    height: 10vh;
+    width: 100vh;
+    margin-left: 55vh;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+
+}
+
+input {
+    width: 100%;
+    height: 6vh;
+    border-radius: 4px;
+    border: none;
+    font-size: 3vh;
+    margin-top: 3vh;
+
+}
+
+.username {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.passwords {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#submit {
+    width: 20vh;
+    border-radius: 8px;
+    margin-left: 40vh;
+}
+
+.map {
+    margin-left: 2vh;
+}
+
+.title-map {
+    margin-top: 7vh;
+    margin-bottom: 2vh;
+}
+
+.text-department {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-right: 2vh;
+    margin-left: 2vh;
+}
+
+.card3 {
+    background-color: burlywood;
+    height: 40vh;
+}
+
+.media {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 5vh;
+    gap: 5vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card4 {
+    height: 40vh;
+}
+
+.text-media {
+    margin-top: 5vh;
+    margin-right: 300px;
+}
+
+h4 {
+    height: 10vh;
+    margin-left: 5vh;
+
+}
+
+.text-major {
+    width: 100%;
+    height: 140vh;
+    margin-left: 2vh;
+    margin-right: 3vh;
+    margin-top: 2vh;
+    text-align: start;
+}
+
+.text {
+    margin-top: 3vh;
+}
+
+.media {
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.Our-media {
+    margin-top: 5vh;
+
+}
+
+.card4 {
+    height: 10vh;
+
+}
+
+
+
+@media(max-width:768px){
+    .btn {
+        display: none;
+
+
+    }
+
+    header {
+        height: 50vh;
+        font-family: sans-serif;
+        font-size: 15px;
+        margin: 0;
+
+
+    }
+
+    .main {
+        margin-left: 0vh;
+        margin-right: 0vh;
+        background-image: url(/photo/Capture.PNG);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .We {
+        margin-top: 2px;
+        margin-left: 10px;
+    }
+
+    #h4 {
+        font-size: 19px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .value-section {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    h3 {
+        font-size: 13px;
+        color: black;
+    }
+
+    .card {
+        width: 60%;
+        height: 60%;
+
+    }
+
+    .text-food {
+        margin-top: 0px;
+    }
+
+    .conteen1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 1px;
+        margin-right: 3px;
+
+
+    }
+
+    .img-conteen {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80vh;
+        height: 80vh;
+        margin-left: 6.5px;
+        margin-top: 3vh;
+
+    }
+
+    .menu {
+        font-size: 17.7px;
+        width: 80vh;
+
+    }
+
+    table,
+    th,
+    td {
+        margin-left: 5px;
+
+    }
+
+    .text-sport {
+        margin-top: 85vh;
+
+    }
+
+    #text-sport {
+        margin-left: 20px;
+    }
+
+    h5 {
+        margin-left: 15vh;
+
+    }
+
+    #text-sport {
+        margin-left: 10vh;
+    }
+
+    .sports {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .imgsports {
+        width: 80vh;
+        height: 35vh;
+        margin-left: 7px;
+    }
+
+    .text-Aerobic {
+        margin-top: 0vh;
+    }
+
+    .img-Aerobic {
+        width: 80vh;
+        font-size: 15px;
+        margin-left: 9px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #Contact-us-section {
+        width: 50vh;
+        height: 40vh;
+
+    }
+    .title-Contact {
+        margin-left: 25vh;
+        margin-top: 25vh;
+    }
+
+    form div {
+        height: 3vh;
+        width: 76vh;
+        margin-left: 1vh;
+        margin-top: 3vh;
+    }
+
+    input {
+        width: 100%;
+        height: 4.5vh;
+        font-size: 2vh;
+        margin-top: 0vh;
+    }
+
+    .Contact-us-section {
+        width: 78.5vh;
+        height: 40vh;
+        margin-top: 1px;
+        text-align: start;
+
+    }
+
+    #submit {
+        margin-left: 28vh;
+        height: 4vh;
+    }
+
+    .title-map {
+        margin-top: 10vh;
+    }
+
+    iframe {
+        width: 80vh;
+
+    }
+
+    .map {
+        margin-left: 0vh;
+    }
+
+    .text-department {
+        margin-left: 7px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card3 {
+        font-size: 15px;
+        width: 40vh;
+        height: 30vh;
+    }
+
+    .text-major {
+        font-size: 25px;
+
+    }
+
+    .t-text {
+        width: 70vh;
+    }
+
+    .A {
+        font-size: 30px;
+    }
+
+    .card4 {
+        width: 10vh;
+
+    }
+
+    .Our-media {
+        margin-top: 30vh;
+    }
+
+    .title-Contact {
+        margin-bottom: 2vh;
+    }
+
+    .title-maps {
+        margin-top: 20vh;
+        padding-bottom: 5vh;
+    }
+
+    .title-map {
+        padding-bottom: 5vh;
+    }
+}
+
+@media(max-width:320px) {
+    header {
+        font-size: smaller;
+        margin: 0;
+
+
+    }
+
+    .main {
+        height: 22vh;
+        margin-left: 0vh;
+        margin-right: 0vh;
+    }
+    
+
+    .We {
+        font-size: 10px;
+    }
+
+    #h4 {
+        margin-top: 1px;
+        font-size: 10px;
+
+    }
+
+    .card {
+        width: 15vh;
+        height: 16vh;
+        margin-left: 1.5vh;
+
+    }
+
+    #value-section {
+        height: 20vh;
+        margin-left: 3px;
+        gap: 5vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .text-food {
+        margin-top: 35vh;
+    }
+
+    .img-conteen {
+        width: 57.7vh;
+    }
+
+    .imgsports {
+        width: 58.5vh;
+    }
+
+
+    .img-Aerobic {
+        width: 58vh;
+        font-size: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .title-Contact {
+        margin-top: 60vh;
+    }
+
+    .Contact-us-section {
+        height: 200px;
+        width: 100vh;
+        margin-top: 5vh;
+        margin-left: 2vh;
+        margin-right: 1vh;
+
+    }
+
+    form {
+        margin-left: 6vh;
+
+    }
+
+    h3 {
+        color:white;
+        font-size: 10px;
+        margin-left: 20vh;
+
+    }
+
+    iframe {
+        width: 50vh;
+    }
+
+    .card3 {
+        width: 28.4vh;
+        font-size: 10px;
+    }
+
+    .A {
+        margin-top: 10vh;
+        width: 55vh;
+        font-size: 15px;
+    }
+
+    .text {
+        width: 50vh;
+        font-size: 10px;
+        margin-left: 2vh;
+    }
+    #nav1{
+        height: 90%;
+        width: 70%;
+    }
+    #home{
+        height: 10vh;
+    }
+    
+
+    .Our-media {
+        margin-top: 0vh;
+    }
+    
+}
